@@ -10,3 +10,9 @@ Customer personality analysis helps a business to modify its product based on it
 
 [Download Resources here](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 ***
+### **Goal**
+Improving marketing campaign performance and target the right customers to be able to do transaction on company's paltform
+***
+### **Objective**
+Create a cluster prediction model using unsepervised learning so that it makes easier for companies to make decisions.
+***
