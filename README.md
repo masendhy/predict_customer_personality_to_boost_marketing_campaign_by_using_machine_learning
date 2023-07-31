@@ -21,4 +21,4 @@ The dataset contains 2.240 data rows and 30 features of customers behavior featu
 ### **Tools**
 During this project I've use : <br>
 
-* ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | as programming language
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | `as programming language`
