@@ -20,5 +20,5 @@ Create a cluster prediction model using unsepervised learning so that it makes e
 The dataset contains 2.240 data rows and 30 features of customers behavior features who madw transactions and interactions on our platform.
 ### **Tools**
 During this project I've use : <br>
-| ----------- | ----------- |
+| :----------- | -----------: |
 |![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | `as programming language` |
