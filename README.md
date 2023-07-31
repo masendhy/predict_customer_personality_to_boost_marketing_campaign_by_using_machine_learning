@@ -58,3 +58,15 @@ Feature | Descriptions
 `NumWebVisitsMonth` | Number of visits to the company's website in the past month
 `Recency` | Number of days since last purchase
 `Response` | 1 if the customer accepted the offer in the last campaign, 0 otherwise
+<br>
+
+***Exploratory Data Analysis***
+On this section, there are few process such as :<br>
+* handling missing values, 
+* feature selection using Recency, Frequency, Monetary and Loyality (RFML) methods,
+* feature transformations to selected features using minmaxscaler and standarscaler.
+
+***Data Modeling***
+* Modeling using K-Means Clustering with cross-validation elbow method on inertia and shilhoutte score <br>
+* Principal Component Analysis for reduce dimensionality
+
