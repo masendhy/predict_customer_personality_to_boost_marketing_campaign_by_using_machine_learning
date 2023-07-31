@@ -27,7 +27,34 @@ During this project I've use : <br>
 `as notebook` <br> <br>
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) <br>
 `as IDE` <br> <br>
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)  ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) <br>
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)   ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) <br>
 `as data preprocessing library` <br> <br>
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) <br>
 `as data visualization library`
+***
+### **Contents**
+
+***Column Details***
+Feature | Descriptions
+--------|-------------
+`ID`            | Unique ID of each customer
+`Year_Birth`    | Customer's birth year 
+`Education`     | Education Qualification of customer
+`Marital_Status`| Marital Status of customer
+`Income`        | Customer's yearly household income
+`Kidhome`       | Number of children in customer's household
+`Teenhome`      | Number of teenagers in customer's household
+`Dt_Customer`   | Date of customer's enrollment with the company
+`Recency`       | Number of days since customer's last purchase
+`MntCoke`       | Amount spent on coke
+`MntFishProducts` | Amount spent on Fish Products
+`MntFruits` | Amount spent on Fruits
+`MntSweetProducts` | Amount spent on Sweet Products
+`MntGoldProds` | Amount spent on Gold Products
+`NumDealsPurchases` | Number of purchases made with a discount
+`NumCatalogPurchases`| The number of purchases made using a catalog (buying goods that will be sent by mail)
+`NumStorePurchases` | Number of purchases made directly at the store
+`NumWebPurchases` | Number of purchases made through the company website
+`NumWebVisitsMonth` | Number of visits to the company's website in the past month
+`Recency` | Number of days since last purchase
+`Response` | 1 if the customer accepted the offer in the last campaign, 0 otherwise
