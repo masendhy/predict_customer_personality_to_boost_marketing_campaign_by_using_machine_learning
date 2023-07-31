@@ -70,3 +70,37 @@ On this section, there are few process such as :<br>
 * Modeling using K-Means Clustering with cross-validation elbow method on inertia and shilhoutte score <br>
 * Principal Component Analysis for reduce dimensionality
 
+### **Customer Persoality Analysis for Marketing Retargeting**
+**Based on my model, there are 4 customer clusters:**
+1. High Spender Customer (Cluster 2)
+* There are 413 customers (18.44% of total customers) on this cluster.
+* Customers on this cluster have `average recency 22 days` and `average of total purchases 22 items` it's means they are frequent shoppers and `they spend a lot on our platform (around IDR 1,2M/year)`
+<br>
+
+2. Mid Spender Customer (Cluster 1)
+* There are 538 customers (24.02% of total customers)on this cluster.
+* Customers on this cluster have a little recency `average recency 72 days` and `average of total purchases 22 items` so it's means they are not frequent shoppers but `they spend on our platform around 1,1M/year `
+<br>
+
+3. Low Spender Customer (Cluster 0)
+* The number of customers is highly dominated by this cluster, there are `652 customers` or `29.11% of total customers`.
+* They are frequent shoppers `(average recency 24 days)` but only have `average of total purchase 10 items`, they are only spend on our platform `around 172K IDR/year`
+<br>
+
+4. Risk of Churn Customer (Cluster 3)
+* The second most of our customers on this cluster, they are not frequent shoppers `average recency 74 days`, and they are just have `average of total purchases 9 items` and only `150K IDR/year` spend on our platform.
+
+### **Bussiness Recomendation**
+***Actionable Insight***
+
+1. Create membership tier program to keep customer retention also membership tier things will attract customers to shopping more on our platform. Let's say we have 3 membership tier (`Premium, Classic, Basic`) each membership tier has different privilages as customers. The highest membership tier they have, the greatest privilages they will get. On this case, we can give membership tier based on customer clusters (`Premium: High Spender and Mid Spender Customer, Classic: Low Spender Customer, Basic: Risk of Churn Customer`).
+2. If we are focusing on `Premium Tier`, there are have a high amount of spending, `High Spender` frequent to shopping on our platform with 66% total accepted campaign, and `Mid Spender` there aren't frequent shoppers but more than 50% of campaign they are accepted. So we can review our campaign, which campaign prefer interesting by the customers, and we can change the campaign that's not interest the customers.
+3. For the `low spender` customer, they are frequent shopping in our platform but just a little items they are purchases and they are have few accepted our campaign, it's can be our campaign are not suitable with them or we offer our campaign not at the right time (we can give our campaign near payday). `Low Spender Customer` can be a loyal customer, because they have high frequently recency shop on our customer.
+4. The second most of our customer are `Risk of Churn Customer`, this is very unfortunate. May be we can give them a questionnaire to understand better what they need.
+
+***Potential Impact (Quantitative)***
+* Based on our clustering we still have potential Gross Merchandise Value (GMV) around `IDR 1.3B/year`, and it's can increased significantly if we can convert the `Low Spender Customer` with high spending.
+
+
+
+
