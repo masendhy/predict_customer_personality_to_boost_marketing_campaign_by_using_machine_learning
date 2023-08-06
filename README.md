@@ -11,13 +11,13 @@ Customer personality analysis helps a business to modify its product based on it
 [Download Resources here](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 ***
 ### **Goal**
-Improving marketing campaign performance and target the right customers to be able to do transaction on company's paltform
+Improving marketing campaign performance and target the right customers to be able to do transaction on company's platform
 ***
 ### **Objective**
-Create a cluster prediction model using unsepervised learning so that it makes easier for companies to make decisions.
+Create a cluster prediction model using unsupervised learning so that it makes easier for companies to make decisions.
 ***
 ### **Data**
-The dataset contains 2.240 data rows and 30 features of customers behavior features who madw transactions and interactions on our platform.
+The dataset contains 2.240 data rows and 30 features of customers behavior features who made transactions and interactions on our platform.
 ### **Tools**
 During this project I've use : <br>
 
@@ -67,10 +67,10 @@ On this section, there are few process such as :<br>
 * feature transformations to selected features using minmaxscaler and standarscaler.
 
 ***Data Modeling***
-* Modeling using K-Means Clustering with cross-validation elbow method on inertia and shilhoutte score <br>
+* Modeling using K-Means Clustering with cross-validation elbow method on inertia and silhouette score <br>
 * Principal Component Analysis for reduce dimensionality
 
-### **Customer Persoality Analysis for Marketing Retargeting**
+### **Customer Personality Analysis for Marketing Retargeting**
 **Based on my model, there are 4 customer clusters:**
 1. High Spender Customer (Cluster 2)
 * There are 413 customers (18.44% of total customers) on this cluster.
@@ -90,10 +90,10 @@ On this section, there are few process such as :<br>
 4. Risk of Churn Customer (Cluster 3)
 * The second most of our customers on this cluster, they are not frequent shoppers `average recency 74 days`, and they are just have `average of total purchases 9 items` and only `150K IDR/year` spend on our platform.
 
-### **Bussiness Recomendation**
+### **Business Recommendation**
 ***Actionable Insight***
 
-1. Create membership tier program to keep customer retention also membership tier things will attract customers to shopping more on our platform. Let's say we have 3 membership tier (`Premium, Classic, Basic`) each membership tier has different privilages as customers. The highest membership tier they have, the greatest privilages they will get. On this case, we can give membership tier based on customer clusters (`Premium: High Spender and Mid Spender Customer, Classic: Low Spender Customer, Basic: Risk of Churn Customer`).
+1. Create membership tier program to keep customer retention also membership tier things will attract customers to shopping more on our platform. Let's say we have 3 membership tier (`Premium, Classic, Basic`) each membership tier has different privileges as customers. The highest membership tier they have, the greatest privileges they will get. On this case, we can give membership tier based on customer clusters (`Premium: High Spender and Mid Spender Customer, Classic: Low Spender Customer, Basic: Risk of Churn Customer`).
 2. If we are focusing on `Premium Tier`, there are have a high amount of spending, `High Spender` frequent to shopping on our platform with 66% total accepted campaign, and `Mid Spender` there aren't frequent shoppers but more than 50% of campaign they are accepted. So we can review our campaign, which campaign prefer interesting by the customers, and we can change the campaign that's not interest the customers.
 3. For the `low spender` customer, they are frequent shopping in our platform but just a little items they are purchases and they are have few accepted our campaign, it's can be our campaign are not suitable with them or we offer our campaign not at the right time (we can give our campaign near payday). `Low Spender Customer` can be a loyal customer, because they have high frequently recency shop on our customer.
 4. The second most of our customer are `Risk of Churn Customer`, this is very unfortunate. May be we can give them a questionnaire to understand better what they need.
